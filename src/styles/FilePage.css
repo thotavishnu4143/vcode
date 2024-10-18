@@ -1,0 +1,140 @@
+.file-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  gap: 15px; /* Adjust the gap between Notepad and File section */
+}
+
+.left-side, .right-side {
+  width: 45%;
+  border: 2px solid #1E90FF; /* Blue outline */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+h2 {
+  text-align: center;
+  color: #1E90FF;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  border: 2px solid #1E90FF;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #1E90FF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4169E1; /* Darker blue on hover */
+}
+
+.right-side input[type="file"] {
+  margin: 20px 0;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+progress {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #f1f1f1;
+  border: 1px solid #1E90FF;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li:nth-child(odd) {
+  background-color: #E6F7FF; /* Lighter blue for alternate list items */
+}
+
+li span {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+li .file-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+li button {
+  margin-left: 5px;
+}
+
+/* Specific file-type icons */
+.file-icon-pdf {
+  background: url('https://example.com/pdf-icon.png') no-repeat center;
+}
+
+.file-icon-docx {
+  background: url('https://example.com/word-icon.png') no-repeat center;
+}
+
+.file-icon-xlsx {
+  background: url('https://example.com/excel-icon.png') no-repeat center;
+}
+
+.file-icon-pptx {
+  background: url('https://example.com/ppt-icon.png') no-repeat center;
+}
+
+.file-icon-audio {
+  background: url('https://example.com/audio-icon.png') no-repeat center;
+}
+
+.file-icon-video {
+  background: url('https://example.com/video-icon.png') no-repeat center;
+}
+
+.file-icon-image {
+  background: url('https://example.com/image-icon.png') no-repeat center;
+}
+
+/* Close page button style */
+.close-page-button {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #1E90FF;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.close-page-button:hover {
+  color: #4169E1;
+}

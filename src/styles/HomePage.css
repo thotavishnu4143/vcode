@@ -1,0 +1,192 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .header {
+    background-color: #002d66;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .logo-box {
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 285px; /* Adjust based on your logo's size */
+  }
+  
+  .input-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .encryption-box {
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .start-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ff7300;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px; /* Matching encryption box height */
+    margin-left: 10px;
+  }
+  
+  .start-button:hover {
+    background-color: #ff5500;
+  }
+  
+  
+  .features-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .features-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .feature {
+    display: inline-block;
+    width: 28%;
+    margin: 10px 2%;
+    text-align: center;
+  }
+  
+  .feature img {
+    width: 80px;
+    margin-bottom: 15px;
+  }
+  
+  .feature h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .technology-section {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .technology-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .technology-section p {
+    font-size: 1rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+  }
+  
+  .technology-section img {
+    width: 80%;
+    max-width: 300px;
+    margin-bottom: 15px;
+  }
+  
+  .sharing-section {
+    background-color: #f5f5f5;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .sharing-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .sharing-section p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .policy-section {
+    background-color: #ff7300;
+    color: rgb(12, 12, 12);
+    padding: 50px 20px;
+  }
+  
+  .policy-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .policy-section ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .policy-section ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .policy-section ul li:before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: rgb(12, 12, 12);
+    font-size: 1.5rem;
+  }
+  
+  .footer {
+    background-color: #002d66;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer p {
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .footer a:hover {
+    color: #ff7300;
+  }
+  
