@@ -37,7 +37,7 @@ function HomePage({ setEncryptionKey }) {
     <div>
 <header className="header">
   <div className="logo-box">
-    <img src={`${process.env.PUBLIC_URL}/assets/vcode-removebg-preview (1).png`} alt="Your Logo" className="logo" />  {/* Replace with your logo */}
+     <img src={`${process.env.PUBLIC_URL}/assets/vcode-removebg-preview (1).png`} alt="Your Logo" className="logo" />
   </div>
   <p>The fastest way to save notes anywhere</p>
   <div className="input-container">
@@ -83,7 +83,7 @@ function HomePage({ setEncryptionKey }) {
       <section className="technology-section">
         <h2>The Technology Behind</h2>
         <p>We use AES encryption to ensure your notes are safe...</p>
-        <img src={`${process.env.PUBLIC_URL}/assets/encry-removebg-preview.png`} alt="Encryption" />
+      <img src={`${process.env.PUBLIC_URL}/assets/encry-removebg-preview.png`} alt="Encryption" />
       </section>
 
       {/* Sharing Section */}
