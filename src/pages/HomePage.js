@@ -37,7 +37,7 @@ function HomePage({ setEncryptionKey }) {
     <div>
 <header className="header">
   <div className="logo-box">
-     <img src={`${process.env.PUBLIC_URL}public/assets/vcode-removebg-preview (1).png`} alt="Your Logo" className="logo" />
+     <img src={`${process.env.PUBLIC_URL}/assets/vcode-removebg-preview (1).png`} alt="Your Logo" className="logo" />
   </div>
   <p>The fastest way to save notes anywhere</p>
   <div className="input-container">
